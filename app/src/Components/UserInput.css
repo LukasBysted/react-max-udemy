@@ -1,10 +1,14 @@
 .UserInput{
-    width: 50%;
+    margin: 15px auto;
+}
+
+.InputField{
+    width: 25%;
     margin: 15px auto;
     border: 1px solid #eee;
     box-shadow: 0 2px 3px #ccc;
     padding: 5 px;
     text-align: center;
-    background-color: green;
+    background-color: darkgreen;
     color: white;
 }

@@ -3,8 +3,8 @@ import './UserInput.css'
 
 const UserInput = (props) => {
     return(
-        <div className="UserInput.css">
-            <input type="text" onChange={props.changed}/>
+        <div className="UserInput">
+            <input className="InputField" type="text" onChange={props.changed}/>
         </div>
     )
 }
